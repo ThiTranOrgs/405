@@ -1,1 +1,1 @@
-<rust optimizer image used to build contract>
+cosmwasm/rust-optimizer:0.13.0

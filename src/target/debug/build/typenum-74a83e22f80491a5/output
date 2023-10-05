@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=build/main.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/letuan/Desktop/66690/src/target/debug/build/typenum-74a83e22f80491a5/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/letuan/Desktop/66690/src/target/debug/build/typenum-74a83e22f80491a5/out/op.rs
