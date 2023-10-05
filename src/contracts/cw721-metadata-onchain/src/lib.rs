@@ -20,7 +20,7 @@ pub struct Metadata {
     pub image: Option<String>,
     pub image_data: Option<String>,
     pub external_url: Option<String>,
-    pub description: String,
+    pub description: Option<String>,
     pub name: Option<String>,
     pub attributes: Option<Vec<Trait>>,
     pub background_color: Option<String>,
@@ -120,7 +120,7 @@ mod tests {
         let token_id = "Enterprise";
         let token_uri = Some("https://starships.example.com/Starship/Enterprise.json".into());
         let extension = Some(Metadata {
-            description: "Spaceship with Warp Drive".into(),
+            description: Some("Spaceship with Warp Drive".into()),
             name: Some("Starship USS Enterprise".to_string()),
             ..Metadata::default()
         });
